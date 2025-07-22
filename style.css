@@ -1,0 +1,57 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #ff6f61, #845ec2);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 500px;
+  backdrop-filter: blur(5px);
+
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #f9f9f9;
+
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border:none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+
+}
+
+button {
+  margin-top: 1.5rem;
+  background-color: #00c9a7;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+button:hover {
+  background-color: #00b198;
+
+}
